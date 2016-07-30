@@ -14,7 +14,7 @@ cv.create_oval(30,10,100,80,fill='grey')
 cv.pack(side=LEFT)
 
 but=Button()
-but['text'] ='Выключатель'
+but['text'] ='Переключатель'
 but.pack(side=LEFT)
 
 but.bind('<Button-1>',oval_func)

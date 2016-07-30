@@ -8,16 +8,16 @@ ent.pack()
 
 lab = Label(root, text="Ваш комментарий:", font="Arial 18")
 lab.pack()
-ent = Entry(root,width=20,bd=3)
-ent.pack()
-#tex = Text(root,width=40,height=20,
-#          font="Verdana 12",
-#          wrap=WORD)
-#tex.pack()
+#ent = Entry(root,width=20,bd=3)
+#ent.pack()
+tex = Text(root,width=30,height=10,
+          font="Verdana 12",
+          wrap=WORD)
+tex.pack()
 
 but = Button(root,
           text="Отправить", #надпись на кнопке
-         width=30,height=5, #ширина и высота
+         width=20,height=2, #ширина и высота
        bg="white",fg="blue") #цвет фона и надписи
 
 but.pack()
